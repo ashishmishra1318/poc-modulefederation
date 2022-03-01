@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .card {
+  margin-bottom: 15px;
+  min-height: 100px;
+  max-height: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: blueviolet;
+  color: white;
+  padding-left: 10%;
+  padding-top: 20px;
+}
+
+
+.card1 {
+  margin-bottom: 15px;
+  min-height: 100px;
+  max-height: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: brown;
+  color: white;
+  padding-left: 10%;
+  padding-top: 20px;
+}
+
+
+.card2 {
+  margin-bottom: 15px;
+  min-height: 100px;
+  max-height: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: cadetblue;
+  color: white;
+  padding-left: 10%;
+  padding-top: 20px;
+}
+
+
+</style>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>POC Sample</h1>
+  <p>Micro Frontends With Webpack using angular 13</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="card">    
+      <div class="card-body">
+        <h5 class="card-title">
+          Header
+        </h5>
+        <p class="card-text">
+          <div id="remote1-app"></div>
+        </p>
+      </div>
+    </div>
+    <div class="card1">    
+      <div class="card-body">
+        <h5 class="card-title">
+          Body
+        </h5>
+        <p class="card-text">
+          <div id="remote2-app"></div>
+        </p>
+      </div>
+    </div>
+    <div class="card2">    
+      <div class="card-body">
+        <h5 class="card-title">
+          Footer
+        </h5>
+        <p class="card-text">
+          <div id="remote3-app"></div>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
